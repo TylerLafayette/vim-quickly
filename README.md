@@ -12,7 +12,7 @@ This plugin also simply calls `node`, so make sure you have node installed and i
 
 Run `:QuicklyEdit <snippet-name>` to open a buffer with the default "Hello world" snippet in it. A snippet is simply a script that transforms CLI args and outputs some text to stdout. A typical snippet may look like this:
 
-```
+```js
 const snippet = (args) => {
 	// This snippet just outputs a formatted array of the args provided to it.
 	// For example:
